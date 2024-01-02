@@ -1,0 +1,259 @@
+
+/* #layanan::after {
+    background: linear-gradient(0deg, rgba(202, 223, 245) 3%, rgb(136, 175, 218) 25%);
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+body {
+   
+}
+
+:root {
+    --text-color:  rgb(13, 106, 137);
+    --color:  rgb(101, 139, 192);
+    --bg-color:  rgb(211, 235, 250);
+    --baru:  rgb(190, 229, 244);
+}
+
+
+   
+      /* background-position: center; */
+
+/*      navbar    */
+nav {
+    z-index: 9999;
+}
+
+
+
+/*    halaman1     */
+.banner {
+    height: 100vh;
+    background-image: url('../img/istanadlmloka.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.banner-content {
+    height: 100%;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center button {
+background-color: rgb(101, 139, 192);
+}
+
+
+
+
+
+
+/*    halaman 2    */
+#layanan {
+    padding: 100px 0;
+    background-color: rgb(222, 237, 246);
+    
+}
+
+#layanan h2 {
+    /* font-family: mv boli; */
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.card-layanan {
+    width: 100%;
+    height: 310px;
+    border-radius: 5px;
+    background: var(--baru);
+    padding: 40px;
+    transition: .3s;
+    
+}
+
+.card-layanan h3 {
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-layanan p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--baru);
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.card-layanan:hover {
+    background: linear-gradient(160deg, rgb(202, 223, 245), var(--text-color));
+}
+
+.card-layanan:hover h3 {
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+.card-layanan:hover p {
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+.card-layanan:hover .circle-icon {
+    background-color: white;
+    transition: all ease-in-out .3s;
+}
+
+/*     halaman 3    */
+#produk h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 900;    
+}
+
+#produk {
+    height: 180vh;
+    background-image: url('../img/roman-spiridonov-qI9H5nyhrV8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgb(222, 237, 246); */
+}
+
+#produk .card .produkimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+#produk .card {
+    height: 500px;
+    border: none;
+    width: 335px;
+    background-color: rgb(190, 221, 232);
+    /* width: 400px; */
+    border-radius: 5px;
+}
+
+#produk .card-body h4 {
+     font-weight: bold;
+     font-size: 25px;
+     line-height: .8rem;
+
+}
+
+#produk .card-body p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, rgb(213, 221, 229), rgb(118, 180, 207), rgb(3, 47, 61));
+    box-shadow: 0px 5px 10px rgb(4, 32, 57);
+    transition: all ease-in-out .2s;
+}
+
+.card:hover .card-body h4 {
+    color: white;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p {
+    color: white;
+    transition: all ease-in-out .3s;
+    
+}
+
+.card-jenis {
+    background-color: rgb(190, 221, 232);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25rem;
+    
+}
+
+.card:hover .card-jenis {
+    background-color: rgb(230, 244, 252);
+    /* background: linear-gradient(160deg, rgb(244, 248, 251), rgb(169, 204, 234), rgb(10, 80, 102)); */
+    transition: all ease-in-out .3s;
+}
+
+
+/*   Halaman 4    */
+#galeri {
+    background-color: rgb(187, 236, 249);
+}
+
+#galeri .button-fitur {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(128, 223, 249);
+    font-weight: 500;
+}
+
+#galeri h2 {
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(15, 169, 211);
+}
+
+.card-fitur button {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(80, 184, 210);
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-weight: 500;
+}
+
+.card-fitur .ang {
+    border-radius: 5px;
+}
+
+.card-fitur .overlay {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0;
+    /* transition: all ease-in-out .3s; */
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: all ease-in-out .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
