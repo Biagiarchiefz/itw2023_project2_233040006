@@ -1,0 +1,79 @@
+/* @media screen and (max-width : 922px){
+     
+}
+    
+@media screen and (max-width : 576) {
+    #layanan h2 {
+        color: aqua;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    
+} */
+
+/* d-none d-sm-block */
+
+
+
+@media (max-width: 922px) {
+    
+}
+
+
+@media (max-width: 576px) {
+    .banner p {
+        width: 100%;
+        /* background-position: center; */
+    }
+
+
+    /*    halaman 2    */
+
+    #layanan h2 {
+        font-size: 35px;
+    }
+
+    .card-layanan {
+        margin: 15px 0;
+    }
+
+
+    /*   halaman 3     */
+
+    #galeri .button-fitur {
+        border-radius: 5px;
+    }
+
+
+    /*   halaman   4 */
+    #contact h3 {
+        font-size: 30px;
+        /* width: 100%; */
+        margin-left: 20px;
+    }
+
+    #contact .bgi {
+        margin-top: 50px;
+    }
+
+    
+    .card-contact{
+    width: 80%;  
+    height: 380px;
+    padding: 20px;
+    margin: 0 50px;
+    
+
+    }
+
+    #contact .kontak {
+        margin-left: 20px;
+    }
+
+    
+}
+
+@media (max-width: 350px) {
+
+}

@@ -7,7 +7,9 @@
     width: 100%;
     height: 100%;
 } */
+
 body {
+    background-color: white;
    
 }
 
@@ -27,6 +29,19 @@ nav {
     z-index: 9999;
 }
 
+/* .navbar {
+    padding: 12px 0;
+} */
+
+.nav-color {
+    background-color: rgb(157, 204, 255);
+    transition: all ease-in-out .6s;
+    /* background-color: white; */
+}
+
+.bg-transparent {
+    transition: all ease-in-out .3s;
+}
 
 
 /*    halaman1     */
@@ -58,9 +73,16 @@ background-color: rgb(101, 139, 192);
 /*    halaman 2    */
 #layanan {
     padding: 100px 0;
-    background-color: rgb(222, 237, 246);
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    position: relative;
+    bottom: 60px;
     
 }
+
+/* #layanan .container {
+    border-radius: 30px;
+} */
 
 #layanan h2 {
     /* font-family: mv boli; */
@@ -74,7 +96,7 @@ background-color: rgb(101, 139, 192);
     width: 100%;
     height: 310px;
     border-radius: 5px;
-    background: var(--baru);
+    background: white;
     padding: 40px;
     transition: .3s;
     
@@ -94,7 +116,7 @@ background-color: rgb(101, 139, 192);
 .circle-icon {
     width: 60px;
     height: 60px;
-    background-color: var(--baru);
+    /* background-color: var(--baru); */
     border-radius: 20%;
     padding: 10px;
 }
@@ -126,12 +148,13 @@ background-color: rgb(101, 139, 192);
 }
 
 #produk {
-    height: 180vh;
+    /* height: 180vh;
     background-image: url('../img/roman-spiridonov-qI9H5nyhrV8-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    /* background-color: rgb(222, 237, 246); */
+    background-position: center; */
+    background-color: rgb(255, 255, 255);
+    
 }
 
 #produk .card .produkimg {
@@ -145,9 +168,10 @@ background-color: rgb(101, 139, 192);
     height: 500px;
     border: none;
     width: 335px;
-    background-color: rgb(190, 221, 232);
+    background-color: rgb(255, 255, 255);
     /* width: 400px; */
     border-radius: 5px;
+    /* box-shadow: 0px 2px 15px rgb(10, 22, 32); */
 }
 
 #produk .card-body h4 {
@@ -164,7 +188,7 @@ background-color: rgb(101, 139, 192);
 
 .card:hover {
     background: linear-gradient(170deg, rgb(213, 221, 229), rgb(118, 180, 207), rgb(3, 47, 61));
-    box-shadow: 0px 5px 10px rgb(4, 32, 57);
+    box-shadow: 0px 5px 10px rgb(16, 16, 16);
     transition: all ease-in-out .2s;
 }
 
@@ -180,7 +204,7 @@ background-color: rgb(101, 139, 192);
 }
 
 .card-jenis {
-    background-color: rgb(190, 221, 232);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     left: 0px;
     right: 0px;
@@ -189,7 +213,7 @@ background-color: rgb(101, 139, 192);
 }
 
 .card:hover .card-jenis {
-    background-color: rgb(230, 244, 252);
+    background-color: rgb(255, 255, 255);
     /* background: linear-gradient(160deg, rgb(244, 248, 251), rgb(169, 204, 234), rgb(10, 80, 102)); */
     transition: all ease-in-out .3s;
 }
@@ -197,7 +221,9 @@ background-color: rgb(101, 139, 192);
 
 /*   Halaman 4    */
 #galeri {
-    background-color: rgb(187, 236, 249);
+    /* background-color: rgb(222, 237, 246); */
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 80px 0;
 }
 
 #galeri .button-fitur {
@@ -210,9 +236,9 @@ background-color: rgb(101, 139, 192);
 }
 
 #galeri h2 {
-    font-weight: 500;
+    color: var(--text-color);
     font-size: 40px;
-    color: rgb(15, 169, 211);
+    font-weight: 900; 
 }
 
 .card-fitur button {
@@ -239,6 +265,74 @@ background-color: rgb(101, 139, 192);
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     transition: all ease-in-out .3s;
+}
+
+
+/*   halaman  5 */
+
+#contact {
+    background-image: url(../img/volha-flaxeco-omgRZCmTvUM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: 70px; */
+}
+
+#contact .overlay {
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+
+#contact .container {
+    padding: 150px 0;
+}
+
+#contact h3 {
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+    width: 500px;
+}
+
+.kontak h6 {
+    color: white;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.kontak a {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.card-contact{
+    width: 100%;  
+    height: 380px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 50px;
+
+}
+
+.card-contact h2 {
+     color: rgb(76, 123, 170);
+     line-height: 60px;
+     margin-bottom: 20px;
+
+}
+
+.form-floating {
+    border-radius: 10px;
+}
+
+
+.button-kontak {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(80, 184, 210)
 }
 
 
