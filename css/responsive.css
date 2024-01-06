@@ -40,13 +40,17 @@
 
 
     /*   halaman 3     */
+    #produk .tr {
+        
+    }
+    
 
+    
+    /*    halaman  4 */
+    
     #galeri .button-fitur {
         border-radius: 5px;
     }
-
-    /*    halaman  4 */
-   
 
     /*   halaman   5*/
     #contact h3 {
