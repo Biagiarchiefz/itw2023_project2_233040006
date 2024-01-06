@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!--    font    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -24,7 +29,7 @@
     <nav
       class="navbar navbar-expand-lg navbar-light position-fixed w-100 bg-transparent">
       <div class="container">
-        <a class="navbar-brand fw-bold" style="font-family: mv boli" href="#"
+        <a class="navbar-brand fw-bold" style="font-family: 'Poppins', sans-serif;" href="#"
           >Alfabettshop</a
         >
         <button
@@ -46,17 +51,17 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item mx-">
+            <li class="nav-item mx-2">
               <a class="nav-link text-dark" href="#layanan">Layanan</a>
             </li>
-            <li class="nav-item mx-">
+            <li class="nav-item mx-2">
               <a class="nav-link text-dark" href="#produk">Produk</a>
             </li>
-            <li class="nav-item mx-">
+            <li class="nav-item mx-2">
               <a class="nav-link text-dark" href="#galeri">Galeri</a>
             </li>
-            <li class="nav-item mx-">
-              <a class="nav-link text-dark" href="#">Contact</a>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dark" href="#contact">contact</a>
             </li>
           </ul>
           <div>
@@ -67,7 +72,7 @@
                 placeholder="Search produk"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-light" type="submit">
+              <button class="btn btn-outline-light text-dark button-search" type="submit">
                 Search
               </button>
             </form>
@@ -83,7 +88,7 @@
           <div class="text-center">
             <p class="fs-2 fw-bold">Selamat Datang di Alfabettshop</p>
             <p class="d-none d-sm-block">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis totam modi quod deleniti perspiciatis?
+              Selamat datang di toko kami! Kami sangat senang Anda bisa berkunjung. Jangan ragu untuk bertanya jika ada yang bisa kami bantu. Selamat berbelanja!
             </p>
             <button type="button" class="btn text-light">Beli Sekarang</button>
           </div>
@@ -108,10 +113,9 @@
                   alt=""
                   class=/>
               </div>
-              <h3 class="mt-3">Castom</h3>
+              <h3 class="mt-3">Custom</h3>
               <p class="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, ut consequuntur. Consectetur enim et nisi.
+                Menerima custom pakaian adat sumbawa dibuat sesuai keinginan, baik dari segi desain, ukuran, warna dan lain sebagainya.
               </p>
             </div>
           </div>
@@ -123,8 +127,7 @@
               </div>
               <h3 class="mt-3">Sewa</h3>
               <p class="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, ut consequuntur. Consectetur enim et nisi.
+                Menerima penyewaan bebas pilih warna, ukuran, desain dan lain sebagainya
               </p>
             </div>
           </div>
@@ -136,8 +139,7 @@
               </div>
               <h3 class="mt-3">Beli</h3>
               <p class="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, ut consequuntur. Consectetur enim et nisi.
+                Dapatkan baju tradisional terkini dengan kualitas terbaik dan pengiriman sesuai keinginan.
               </p>
             </div>
           </div>
@@ -161,13 +163,16 @@
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/krealanght1.jpg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/cipo1 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/nbl.jpeg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/cipo2 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/krealangmrh1.jpg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/cipo3 1.png" class="d-block w-100 produkimg" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/cipo4 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -181,25 +186,24 @@
               </div>
               
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
+                <h4 class="">Rp.250.000</h4>
                 <p>
-                  Kre alang <br />
-                  <span class="text-success">Beli Sekarang</span>
+                  Cipo cila <br />
+                  <span class="">Hiasan kepala sebagai pelengkap lamung pene</span>
                 </p>
               </div>
-
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
                   <p>Castom</p>
                 </span>
@@ -207,19 +211,25 @@
             </div>
           </div>
 
+
           <div class="col-lg-4 col-md-6 mb-5 d-flex justify-content-evenly">
-            <div class="card p-3  shadow">
-              
+            <div class="card p-3 shadow">
               <div id="carouselExampleControls_1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/krealanght1.jpg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/lamung2 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/nbl.jpeg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/lamung1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/krealangmrh1.jpg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/lamung3 1.png" class="d-block w-100 produkimg" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/lamung4 1.png" class="d-block w-100 produkimg" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/lamung5 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_1" data-bs-slide="prev">
@@ -231,29 +241,27 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
+              
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
-                <p>
-                  Kre alang <br />
-                  <span class="text-success">Beli</span>
+                <h4 class="">Rp.350.000</h4>
+                <p class="">Lamung pene <br />
+                  <span class="">Baju adat perempuan sumbawa yang dipakai di acara adat</span>
                 </p>
               </div>
-
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
-                  <p>Castom</p>
+                  <p>Custom</p>
                 </span>
               </div>
             </div>
@@ -265,13 +273,16 @@
               <div id="carouselExampleControls_2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/nbl.jpeg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/krealang1 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/nbl.jpeg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/mirakre.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/krealangmrh1.jpg" class="d-block w-100 produkimg" alt="...">
+                    <img src="img/krealang2 1.png" class="d-block w-100 produkimg" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/krealang3 1.png" class="d-block w-100 produkimg" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls_2" data-bs-slide="prev">
@@ -283,29 +294,29 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
+              
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
+                <h4 class="">Rp.1.500.000.</h4>
                 <p>
                   Kre alang <br />
-                  <span class="text-success">Beli</span>
+                  <span class="">Menggunakan kain songket berbahan dasar benang katun</span>
                 </p>
               </div>
 
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
-                  <p>Castom</p>
+                  <p>Custom</p>
                 </span>
               </div>
             </div>
@@ -313,29 +324,29 @@
 
           <div class="col-lg-4 col-md-6 mb-5 d-flex justify-content-evenly">
             <div class="card p-3 shadow">
-              <img src="img/krealanght1.jpg" alt="" class="produkimg" />
+              <img src="img/sapu2 1.png" alt="" class="produkimg" />
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
+                <h4>Rp.350.000</h4>
                 <p>
-                  Kre alang <br />
-                  <span class="text-success">Beli</span>
+                  Sapu <br />
+                  <span class="">Hiasan ikat kepala khas sumbawa untuk laki laki</span>
                 </p>
               </div>
 
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
-                  <p>Castom</p>
+                  <p>Custom</p>
                 </span>
               </div>
             </div>
@@ -343,29 +354,29 @@
 
           <div class="col-lg-4 col-md-6 mb-5 d-flex justify-content-evenly">
             <div class="card p-3 shadow">
-              <img src="img/krealanght1.jpg" alt="" class="produkimg" />
+              <img src="img/nbl.jpeg" alt="" class="produkimg" />
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
+                <h4>Rp.325.000</h4>
                 <p>
-                  Kre alang <br />
-                  <span class="text-success">Beli</span>
+                  Lamung pene anak <br />
+                  <span class="">Baju adat perempuan sumbawa yang dipakai di acara adat</span>
                 </p>
               </div>
 
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
-                  <p>Castom</p>
+                  <p>Custom</p>
                 </span>
               </div>
             </div>
@@ -373,33 +384,34 @@
 
           <div class="col-lg-4 col-md-6 mb-5 d-flex justify-content-evenly">
             <div class="card p-3 shadow">
-              <img src="img/krealanght1.jpg" alt="" class="produkimg" />
+              <img src="img/sapu1 1.png" alt="" class="produkimg" />
               <div class="card-body">
-                <h4>Rp.200.000.00</h4>
+                <h4>Rp.350.000</h4>
                 <p>
-                  Kre alang <br />
-                  <span class="text-success">Beli</span>
+                  sapu <br />
+                  <span class="">Hiasan ikat kepala khas sumbawa untuk laki laki</span>
                 </p>
               </div>
 
               <div class="card-jenis d-flex justify-content-around">
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/shopkc.png" alt="" />
                   <p>Beli</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewakc.png" alt="" />
                   <p>Sewa</p>
                 </span>
 
-                <span class="mt-2">
+                <span class="pt-1">
                   <img src="img/sewkc.png" alt="" />
-                  <p>Castom</p>
+                  <p>Custom</p>
                 </span>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -418,7 +430,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container position-relative">
           <div class="row">
             <div class="col-12 d-flex">
               <div class="card-fitur me-3 position-relative">
@@ -434,7 +446,7 @@
               </div>
 
               <div class="card-fitur me-3 position-relative">
-                <img src="img/nbilagl.png" alt="" class="ang">
+                <img src="img/gtgaleri 1.png" alt="" class="ang">
                 
                 <div class="overlay position-absolute top-0 bottom-o start-0 end-0 h-100 w-100">
                   <div class="text-center position-absolute top-50 start-50 translate-middle">
@@ -446,7 +458,7 @@
               </div>
 
               <div class="card-fitur me-3 position-relative">
-                <img src="img/gtgaleri 1.png" alt="" class="ang">
+                <img src="img/nbilagl.png" alt="" class="ang">
                 
                 <div class="overlay position-absolute top-0 bottom-o start-0 end-0 h-100 w-100">
                   <div class="text-center position-absolute top-50 start-50 translate-middle">
@@ -519,6 +531,14 @@
               </div>
              </div>
           </div>
+          <button class="button-arrow-left position-absolute start-0 top-50 translate-middle-y">
+           <img src="img/left arrow.png" alt="">
+          </button>
+ 
+ 
+          <button class="button-arrow-right position-absolute end-0 top-50 translate-middle-y">
+           <img src="img/right arrow.png" alt="">
+          </button>
         </div>
       </div>
     </section>
@@ -566,7 +586,7 @@
             <div class="col-md-6 bgi">
               <div class="card-contact">
                   <form action="">
-                    <h2 class="text-center">Ada pertayaan?</h2>
+                    <h2 class="text-center">Ada pertanyaan?</h2>
                     <div class="form-floating mb-3">
                       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                       <label for="floatingInput">Masukan email anda</label>
@@ -574,7 +594,7 @@
 
                     <div class="form-floating mb-3">
                       <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                      <label for="floatingInput">Pertayaan</label>
+                      <label for="floatingInput">Pertanyaan</label>
                     </div>
 
                     <button type="submit"  class="button-kontak">Kirim</button>
